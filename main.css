@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.main {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.hide {
+  display: none;
+}
+
+.active {
+  display: flex;
+}
+
+.popup {
+  position: absolute;
+  width: 450px;
+  height: 200px;
+  background: rgb(204, 80, 80);
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+}
+
+.total-score {
+  color: #fff;
+  text-transform: uppercase;
+  font-family: sans-serif;
+  font-size: 20px;
+  margin-right: 15px;
+}
+
+.total {
+  align-self: flex-end;
+  margin-bottom: 20px;
+  padding: 5px 20px;
+  font-size: 20px;
+  border: none;
+  border-radius: 10px;
+  background-color: #2fe7b9;
+  color: #427e6f;
+  transition: .5s;
+}
+
+.total:hover {
+  cursor: pointer;
+  background-color: #25bd97;
+  color: #c2e5dd;
+}
+
+.total:focus {
+  outline: none;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.start {
+  padding: 5px 20px;
+  font-size: 20px;
+  border: none;
+  border-radius: 10px;
+  background-color: #427e6f;
+  color: #fff;
+  transition: .5s;
+}
+
+.start:hover {
+  background-color: #205749;
+  cursor: pointer;
+}
+
+.start:focus {
+  outline: none; 
+}
+
+.field {
+  margin-top: 20px;
+  width: 560px;
+  height: 560px;
+  background: #000;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.field:hover {
+  cursor: url('https://i.ibb.co/YLXvj1y/hammer-cursor.png'), auto; 
+}
+
+.field_section {
+  width: 140px;
+  height: 140px;
+  background: #205749;
+  border: 1px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.score {
+  margin: 10px;
+  text-align: center;
+  border: 1px solid #000;
+  border-radius: 20px;
+  padding: 20px;
+}
+
+
+/*# sourceMappingURL=main.css.map*/
